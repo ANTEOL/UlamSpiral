@@ -5,7 +5,7 @@ let CanvSize = 4000;
 let turn = 0;
 let step = 1;
 let eSize = CanvSize / size;
-let stepScale = 3;
+let stepScale = 2;
 
 function ask() {
     size = prompt("Please enter the limit of the spiral:","");
