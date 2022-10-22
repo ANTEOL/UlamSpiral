@@ -10,13 +10,16 @@ let stepScale = 2;
 function ask() {
     size = prompt("Please enter the limit of the spiral:","");
     CanvSize = prompt("Please enter the size of the canvas:", "");
-//     if (size == null || size == "") {
-//         size = 100;
-//     }
-//     if (CanvSize == null || CanvSize == "") {
-//         CanvSize = size*30;
-//     }
+    if (size == null || size == "") {
+        size = 100;
+
+    }
+    if (CanvSize == null || CanvSize == "") {
+        CanvSize = size*40;
+
+    }
 }
+
 
 ask();
 
